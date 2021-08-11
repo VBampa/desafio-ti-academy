@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="estilo2.css">
+	<title>Document</title>
+</head>
+<body>
+	<main>
+		<div>
+			<div class="quadradomaior">
+				<div class="quadradomenor ">Quadrado</div>
+				<div class="circulomenor ">Circulo</div>
+
+		</div>
+	</main>
+</body>
+</html>
+
+*/ codigo css */
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+main{
+	width: 50%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 10px;
+	background-color: cyan;
+	display: flex;
+	padding: 3px;
+	flex-direction: column;
+}
+.quadradomenor {
+	width: 150px;
+	height: 150px;
+	background-color: #9C27B0;
+	font-family: verdana, arial, cursive;
+	font-weight: bold;
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+}
+.circulomenor {
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	background-color: #FDD835;
+	font-family: verdana, arial, cursive;
+	font-weight: bold;
+	display: flex;
+	justify-content: center; 
+	align-items: center;	
+	margin-left: 570px;
+}
